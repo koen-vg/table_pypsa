@@ -1,0 +1,44 @@
+technology,year,parameter,value,unit,source
+hot rocks storage,2030,investment,94,USD/kWh,Energy Storage Report https://energystoragereport.info/the-storage-that-can-reuse-todays-thermal-plants/
+hot rocks storage,2030,standing loss,0.2,%/day,Wind http://www.windenergydenmark.dk/Files/Images/Wind-Energy-Denmark-2015/Presentations-2016/Henrik_Stiesdal_Grid-scale-energy-storage_Yes-Public.pdf
+molten salt storage,2030,investment,10,EUR/kWh,https://onlinelibrary.wiley.com/doi/full/10.1002/cite.202000137
+molten salt storage,2030,standing loss,0.2,%/day,assumption
+hot water storage,2030,investment,3,EUR/kWh,https://ens.dk/sites/ens.dk/files/Analyser/technology_data_catalogue_for_energy_storage.pdf
+hot water storage,2030,standing loss,0.8,%/day,https://hal.archives-ouvertes.fr/hal-01118538/document
+resistive heater,2030,investment,120,EUR/kW,http://publications.jrc.ec.europa.eu/repository/bitstream/JRC109006/kjna28859enn.pdf
+resistive heater,2030,efficiency,0.99,per unit,https://www.siemensgamesa.com/products-and-services/hybrid-and-storage/thermal-energy-storage-with-etes
+heat exchanger,2030,investment,490,EUR/kW,https://www.tri-hp.eu/fileadmin/downloads/Deliverables/D1.4_-_Economic_assessment_of_TRI-HP_solutions.pdf
+hot storage thermal generator,2030,investment,700,EUR/kW,https://www.energy.gov/sites/prod/files/2016/09/f33/CHP-Steam%20Turbine.pdf
+hot storage thermal generator,2030,efficiency,0.45,per unit,https://www.siemensgamesa.com/products-and-services/hybrid-and-storage/thermal-energy-storage-with-etes
+central heat pump,2030,investment,1000,EUR/kW,https://backend.orbit.dtu.dk/ws/portalfiles/portal/150813986/CONECT_Pieper_Allocation_of_investment_costs_for_large_scale_heat_pumps.pdf
+central heat pump,2030,efficiency,3,per unit,assumption
+onwind,2030,lifetime,30,years,DEA https://ens.dk/en/our-services/projections-and-models/technology-data
+onwind,2030,investment,1040,EUR/kWel,DEA https://ens.dk/en/our-services/projections-and-models/technology-data
+onwind,2030,FOM,2.450549,%/year,DEA https://ens.dk/en/our-services/projections-and-models/technology-data
+onwind,2030,VOM,2.3,EUR/MWhel,DEA https://ens.dk/en/our-services/projections-and-models/technology-data
+onwind,2030,p_nom_max,327,MW,KoszutaGambhavaandOpedal2019
+solar,2030,lifetime,40,years,DEA https://ens.dk/en/our-services/projections-and-models/technology-data
+solar,2030,investment,380,EUR/kWel,DEA https://ens.dk/en/our-services/projections-and-models/technology-data
+solar,2030,FOM,4.166667,%/year,DIW DataDoc http://hdl.handle.net/10419/80348
+solar,2030,VOM,0.01,EUR/MWhel,RES costs made up to fix curtailment order
+solar,2030,p_nom_max,46,MW,KoszutaGambhavaandOpedal2019
+electrolysis,2030,investment,350,EUR/kWel,Palzer Thesis
+electrolysis,2030,FOM,4,%/year,NREL http://www.nrel.gov/docs/fy09osti/45873.pdf; budischak2013
+electrolysis,2030,lifetime,18,years,NREL http://www.nrel.gov/docs/fy09osti/45873.pdf; budischak2013
+electrolysis,2030,efficiency,0.8,per unit,NREL http://www.nrel.gov/docs/fy09osti/45873.pdf; budischak2013
+fuel cell,2030,investment,339,EUR/kWel,NREL http://www.nrel.gov/docs/fy09osti/45873.pdf; budischak2013
+fuel cell,2030,FOM,3,%/year,NREL http://www.nrel.gov/docs/fy09osti/45873.pdf; budischak2013
+fuel cell,2030,lifetime,20,years,NREL http://www.nrel.gov/docs/fy09osti/45873.pdf; budischak2013
+fuel cell,2030,efficiency,0.58,per unit,NREL http://www.nrel.gov/docs/fy09osti/45873.pdf; budischak2013 conservative 2020
+hydrogen storage,2030,investment,11.2,USD/kWh,budischak2013
+hydrogen storage,2030,lifetime,20,years,budischak2013
+hydrogen storage,2030,standing loss,0,%/day,assumption
+hydrogen underground storage,2030,investment,0.5,EUR/kWh,maximum from https://www.nrel.gov/docs/fy10osti/46719.pdf
+hydrogen underground storage,2030,lifetime,40,years,http://www.acatech.de/fileadmin/user_upload/Baumstruktur_nach_Website/Acatech/root/de/Publikationen/Materialien/ESYS_Technologiesteckbrief_Energiespeicher.pdf
+battery inverter,2030,investment,411,USD/kWel,budischak2013
+battery inverter,2030,lifetime,20,years,budischak2013
+battery inverter,2030,efficiency,0.9,per unit charge/discharge,budischak2013; Lund and Kempton (2008) http://dx.doi.org/10.1016/j.enpol.2008.06.007
+battery inverter,2030,FOM,3,%/year,budischak2013
+battery storage,2030,investment,137,USD/kWh,https://about.bnef.com/blog/battery-pack-prices-cited-below-100-kwh-for-the-first-time-in-2020-while-market-average-sits-at-137-kwh/
+battery storage,2030,lifetime,15,years,budischak2013
+curtailment,2030,VOM,100,EUR/kWh,assumption
